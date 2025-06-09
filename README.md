@@ -38,7 +38,7 @@ This web application allows users to explore and analyze stock market data, mana
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -84,7 +84,7 @@ npm start
 ```
 The React app will open in your browser at http://localhost:3000.
 
-### Usage
+### 💡 Usage
 1. Login using valid credentials.
 
 2. Navigate through:
