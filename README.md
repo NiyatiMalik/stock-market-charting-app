@@ -2,27 +2,39 @@
 
 ## Overview
 
-This application provides real-time and historical stock market data visualization through interactive charts. It consists of a Java-based backend API that fetches and serves stock data, and a React frontend that displays dynamic charts to users.
+This web application allows users to explore and analyze stock market data, manage companies and exchanges, and view IPO details. It is built with a **Java Spring Boot backend** and a **React frontend**. The app includes features like user authentication, data import, company and exchange management, and interactive charts for stock performance.
 
 ---
 
-## Features
+## 🔑 Menu & Features
 
-- Fetches real-time and historical stock price data
-- Interactive charts with zoom, pan, and tooltip support
-- Search and select stocks by ticker symbol
-- Responsive and user-friendly UI
-- Backend REST API built with Java (Spring Boot)
-- Frontend built with React and popular charting libraries (e.g., Recharts or Chart.js)
+### 🔐 Login
+- User authentication to access application features
+
+### 📤 Import Data
+- Upload and import bulk stock price data via Excel or CSV
+
+### 🏢 Manage Companies
+- Add, update, view, and delete company details
+- Associate companies with exchanges
+
+### 🏦 Manage Exchanges
+- Maintain stock exchange information (e.g., NSE, BSE)
+
+### 🏙️ Sector
+- Categorize companies into sectors for better analysis
+
+### 📅 IPO Details
+- View and manage Initial Public Offering (IPO) information
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Backend:** Java, Spring Boot, REST API
-- **Frontend:** React, JavaScript, Chart.js / Recharts (or other charting library)
-- **Data Source:** Public stock market APIs (e.g., Alpha Vantage, IEX Cloud)
-- **Build Tools:** Maven (backend), npm/yarn (frontend)
+- **Frontend:** React, JavaScript
+- **Backend:** Java, Spring Boot, REST APIs
+- **Database:** MySQL
+- **Authentication:** JWT 
 
 ---
 
@@ -30,9 +42,8 @@ This application provides real-time and historical stock market data visualizati
 
 ### Prerequisites
 
-- Java 11+ installed
+- Java installed
 - Node.js and npm/yarn installed
-- API key for stock market data provider (if required)
 
 ### Backend Setup
 
@@ -41,9 +52,10 @@ This application provides real-time and historical stock market data visualizati
 ```bash
 git clone https://github.com/your-repo/stock-market-charting-app.git
 cd stock-market-charting-app/backend
+```
 Configure API keys and environment variables as needed (e.g., in application.properties or .env).
 
-Build and run the backend server:
+2. Build and run the backend server:
 
 bash
 Copy
