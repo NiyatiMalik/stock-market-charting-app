@@ -57,43 +57,44 @@ Configure API keys and environment variables as needed (e.g., in application.pro
 
 2. Build and run the backend server:
 
-bash
-Copy
-Edit
+```bash
 mvn clean install
 mvn spring-boot:run
+```
 The backend server will start on http://localhost:8080.
 
-Frontend Setup
-Navigate to the frontend directory:
+### Frontend Setup
 
-bash
-Copy
-Edit
+1. Navigate to the frontend directory:
+   
+```bash
 cd ../frontend
-Install dependencies:
+```
 
-bash
-Copy
-Edit
+2. Install dependencies:
+
+```bash
 npm install
-# or
-yarn install
-Start the frontend development server:
+```
 
-bash
-Copy
-Edit
+3. Start the frontend development server:
+
+```bash
 npm start
-# or
-yarn start
+```
 The React app will open in your browser at http://localhost:3000.
 
-Usage
-Open the frontend URL.
+### Usage
+1. Login using valid credentials.
 
-Search for a stock symbol.
+2. Navigate through:
 
-View real-time and historical price charts.
+- Manage Companies to add/view companies
 
-Interact with charts using zoom and pan.
+- Manage Exchanges to edit exchange info
+
+- Sectors to classify companies
+
+- IPO Details to add/view IPO records
+
+
